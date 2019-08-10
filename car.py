@@ -1,11 +1,10 @@
 from builtins import super
 
 import math
+import math_helpers.MathHelperC as m
 import numpy as np
 
-import config 
-import track
-import math_helpers.MathHelperC as m
+import config
 
 
 class Car:
@@ -30,7 +29,7 @@ class Car:
         
 
     def _init_sensors(self):
-        self.sensors = [Sensor(self, angle,self.track.borders) for angle in config.sensor_angles]
+        self.sensors = [Sensor(self, angle) for angle in config.sensor_angles]
         self.last_sensors_values = np.array([config.sensor_dist for v in self.sensors],dtype=np.float)
 
     def move(self):
@@ -48,7 +47,8 @@ class Car:
             self.v = -config.max_velocity
 
     def _read_sensors(self):
-        self.last_sensors_values=np.array([v.get_reading() for v in self.sensors],dtype=np.float)
+        local_borders = self.track.get_borders_around_pt((self.x, self.y))
+        self.last_sensors_values = np.array([v.get_reading(local_borders) for v in self.sensors], dtype=np.float)
 
 
     def _check_collisions(self):
@@ -82,11 +82,12 @@ class ScoringCar(Car):
         self._set_gate()
 
     def _set_gate(self):
-        self.score_sensors=[Sensor(self, angle, self.track.gates[self._gate_idx:self._gate_idx + 1]) for angle in config.sensor_angles]
+        self.score_sensors = [Sensor(self, angle) for angle in config.sensor_angles]
 
     def _read_sensors(self):
         super(ScoringCar, self)._read_sensors()
-        self.last_score_sensors_values = np.array([v.get_reading() for v in self.score_sensors], dtype=np.float)
+        gate = self.track.gates[self._gate_idx:self._gate_idx + 1]
+        self.last_score_sensors_values = np.array([v.get_reading(gate) for v in self.score_sensors], dtype=np.float)
 
     def _check_score_collisions(self):
         for s in self.last_score_sensors_values:
@@ -103,17 +104,16 @@ class ScoringCar(Car):
         return r
 
 class Sensor:
-    def __init__(self, car, angle, borders):
+    def __init__(self, car, angle):
         self.car=car
         self.angle=angle
-        self.borders=borders
 
-    def get_reading(self):
+    def get_reading(self, borders):
         end_point_x= self.car.x + math.cos(self.car.dir+self.angle) * config.sensor_dist
         end_point_y = self.car.y + math.sin(self.car.dir + self.angle) * config.sensor_dist
 
         sensor_line_pts=np.array(((self.car.x,self.car.y),(end_point_x,end_point_y)),dtype=np.float)
-        sensor_dist=m.find_distance_to_line_set(self.borders, sensor_line_pts)
+        sensor_dist = m.find_distance_to_line_set(borders, sensor_line_pts)
 
         if sensor_dist is None:
             sensor_dist=config.sensor_dist
