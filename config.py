@@ -30,7 +30,7 @@ gate_color=(255,0,0)
 time_step=1/fps
 
 #experiment settings
-max_experiment_steps=20e3 #
+max_experiment_steps = 1e5  #
 
 #mutation settings
 mutation_Rate = 0.025
@@ -49,5 +49,5 @@ import numpy as np
 control_scalar_max=np.array([max_acceleration,max_turnrate],dtype=np.float)
 control_scalar_min=-control_scalar_max
 
-mutation_multiplier = 10
-faster_mutation_threshold = 0.25
+mutation_multiplier = 3
+faster_mutation_threshold = 1

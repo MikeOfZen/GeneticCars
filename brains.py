@@ -1,11 +1,11 @@
 import random
-import math
 
-from pyglet.window import key
 import numpy as np
+from pyglet.window import key
 
-import neural
 import config
+import neural
+
 
 class Brain:
     def __init__(self):
@@ -109,4 +109,3 @@ class NeuralBrain(Brain):
         return self._name+" -\n"+self.weights_str
 
 
-#todo make brains able to save and load themselves

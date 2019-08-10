@@ -1,8 +1,7 @@
-import brains
-import experiment
-
 import numpy as np
+
 import config as c
+import experiment
 from population import Population
 
 
@@ -79,7 +78,7 @@ class Evolution:
 
     def _adapt_mutation_rate(self):
         # increase mutation if variance in scores is low
-        if np.array(self._last_scores).std() / np.array(self._last_scores).mean() < c.faster_mutation_threshold:
+        if np.array(self._last_scores).std() < c.faster_mutation_threshold:
             self.mutation_rate = c.mutation_Rate * c.mutation_multiplier
         else:
             self.mutation_rate = c.mutation_Rate
