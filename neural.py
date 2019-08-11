@@ -52,7 +52,6 @@ class SymmetricalNeuralNetwork:
         for i in np.unique(self._symmetry_mat[self._symmetry_mat > 0]):
             first=np.where(self._symmetry_mat==i)[0]
             self.mutables[first]=True
-        return self.mutables
 
     @property
     def weights(self):
@@ -64,3 +63,5 @@ class SymmetricalNeuralNetwork:
         assert new_weights.shape == self._symmetry_mat.shape
         self._weights = self.apply_symetry(new_weights).copy()
         self._mutable_weights()
+
+class NeuralNetwork():

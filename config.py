@@ -49,5 +49,5 @@ import numpy as np
 control_scalar_max=np.array([max_acceleration,max_turnrate],dtype=np.float)
 control_scalar_min=-control_scalar_max
 
-mutation_multiplier = 3
-faster_mutation_threshold = 1
+mutation_multiplier = 5
+faster_mutation_threshold = 1.0 #must be float

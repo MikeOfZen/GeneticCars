@@ -1,3 +1,5 @@
+import random
+
 import numpy as np
 
 import config as c
@@ -47,6 +49,7 @@ class Evolution:
         return experiment.Experiment(track=self.track,brain_pop=self.population)
 
     def _select(self):
+        random.shuffle(self._last_results)
         self._last_scores=[t[1] for t in self._last_results]
 
         selected=[]
@@ -78,7 +81,7 @@ class Evolution:
 
     def _adapt_mutation_rate(self):
         # increase mutation if variance in scores is low
-        if np.array(self._last_scores).std() < c.faster_mutation_threshold:
+        if np.array(self._last_scores).std() > c.faster_mutation_threshold:
             self.mutation_rate = c.mutation_Rate * c.mutation_multiplier
         else:
             self.mutation_rate = c.mutation_Rate

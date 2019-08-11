@@ -109,3 +109,4 @@ class NeuralBrain(Brain):
         return self._name+" -\n"+self.weights_str
 
 
+    def mutate(self,mutation_factor):
