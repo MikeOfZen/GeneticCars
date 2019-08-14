@@ -82,21 +82,17 @@ class UserBrain(Brain):
 
 
 class NeuralBrain(Brain):
-    def __init__(self,weights):
+    def __init__(self,net=None):
         super(NeuralBrain, self).__init__()
+        if net is None:
+            self.net=neural.NeuralNetwork(config.default_neural_shape,None,config.default_symmetry_mat)
+        else:
+            self.net=net
 
-        #create random neural network with 5 inputs and 2 outpus so 6x2
-        if weights is None:
-            weights=2*(np.random.random([2,6])-0.5)
-        with np.printoptions(precision=3,suppress=True):
-            self.weights_str=str(weights) #for jsonpickle human readable form
-        self.net=neural.OneLayerNeuralNetwork(weights)
+ #for jsonpickle human readable form
 
-        d=3 #number of digits in name
-        m=10**d
-        self._id=int(m-abs((abs(weights).sum()*1000) % (2*m) - m))
-
-        self._name=f"N{str(self._id).zfill(d)}"
+        self._id=self.net.id
+        self._name=f"BN{str(self._id).zfill(3)}"
 
     def compute(self, input):
         scaled_input=self.scale_input(input)
@@ -106,7 +102,6 @@ class NeuralBrain(Brain):
         return (scaled_controls[0],scaled_controls[1])
 
     def __repr__(self):
-        return self._name+" -\n"+self.weights_str
+        return f"{self._name}\n {repr(self.net)}"
 
 
-    def mutate(self,mutation_factor):

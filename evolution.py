@@ -9,12 +9,13 @@ from population import Population
 
 class Evolution:
     """sets up a series of experiments, applying evolution between each one"""
-    def __init__(self,population,track,generations_to_run):
+    def __init__(self,population,track,generations_to_run,genetics):
         self.track=track
         self.population = population
         self.population_size=len(population)
         #self.net_shape=self.population[0].net.weights.shape
 
+        self.genetics=genetics
         self.generations_to_run=generations_to_run
 
 
@@ -24,11 +25,12 @@ class Evolution:
         self._display_test_results()
         for i in range(1,self.generations_to_run):
             self.generation=i
-            self._select()
             self.population=Population()
+            self._select()
+            self._display_selected()
             self._carry_over()
             self._adapt_mutation_rate()
-            self._mutate()
+            self._cross_breed()
             self._test()
             self._display_test_results()
         return self.population
@@ -37,6 +39,11 @@ class Evolution:
         self._experiment = self._setup_test()
         self._run_test()
         self._last_results=self._experiment.experiment_results()
+
+    def _display_selected(self):
+        print(f"Selected nets are: {[str(x) for x in self._last_selected]}")
+        if c.verbose:
+            print("Weights:\n"+"\n".join([repr(x) for x in self._last_selected]))
 
     def _display_test_results(self):
         print(f"Generation - {self.generation} results \n")
@@ -68,28 +75,37 @@ class Evolution:
     def _carry_over(self):
         self.population+=self._last_selected
 
-    def _mutate(self):
+    def _cross_breed(self):
 
         for i in range(self.population_size-len(self.population)): #add variations of the previously selected to the existing population
-            selected_brain=self._last_selected[i%len(self._last_selected)]   #take a different brain from the self._last_selected each time
+            #selected_brain=self._last_selected[i%len(self._last_selected)]   #take a different brain from the self._last_selected each time
 
-            new_net=selected_brain.net.weights.copy()
-            random_factor= (2*(np.random.random(new_net.shape)-0.5)) * self.mutation_rate
-            new_net=new_net+random_factor
-            new_brain=selected_brain.__class__(new_net)
+            brain_a=np.random.choice(self._last_selected)
+            brain_b = np.random.choice(self._last_selected)
+            if c.verbose:
+                print(f"\nCrossbreeding {brain_a} and {brain_b}")
+            offspring_net=self.genetics.cross_breed(brain_a.net,brain_b.net)
+            if c.verbose:
+                print(f"\nOffspring net - {repr(offspring_net)}")
+            mutated_offspring_net=self.genetics.mutate(offspring_net,self.mutation_rate)
+            if c.verbose:
+                print(f"\nMutated Offspring net - {repr(mutated_offspring_net)}")
+            new_brain=brain_a.__class__(mutated_offspring_net)
             self.population.append(new_brain)
 
     def _adapt_mutation_rate(self):
         # increase mutation if variance in scores is low
-        if np.array(self._last_scores).std() > c.faster_mutation_threshold:
-            self.mutation_rate = c.mutation_Rate * c.mutation_multiplier
-        else:
-            self.mutation_rate = c.mutation_Rate
+        if c.throttle_mutation_by_std:
+            if np.array(self._last_scores).std() < c.faster_mutation_threshold:
+                self.mutation_rate = c.mutation_Rate * c.mutation_multiplier
+                return
+
+        self.mutation_rate = c.mutation_Rate
 
 
 class DrawnEvolution(Evolution):
-    def __init__(self,population,track,generations_to_run,window):
-        super(DrawnEvolution, self).__init__(population, track, generations_to_run)
+    def __init__(self,population,track,generations_to_run,window,genetics):
+        super(DrawnEvolution, self).__init__(population, track, generations_to_run,genetics)
         self.window=window
 
     def _setup_test(self):
@@ -98,3 +114,4 @@ class DrawnEvolution(Evolution):
     def _run_test(self):
         self.window.activity = self._experiment.step
         self.window.start()
+

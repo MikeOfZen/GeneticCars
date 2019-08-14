@@ -79,6 +79,7 @@ class ScoringCar(Car):
         super(ScoringCar, self).__init__(*args, **kwargs)
         self.fitness=0
         self._gate_idx=0
+        self._final_fitness_flag=False
         self._set_gate()
 
     def _set_gate(self):
@@ -97,10 +98,16 @@ class ScoringCar(Car):
                     self._set_gate()
                     self.fitness =self._gate_idx
 
+    def _add_final_fitness(self):
+        self.fitness += 1/self.step_count
+        self._final_fitness_flag=True
+
     def step(self):
         r=super(ScoringCar, self).step()
         if r:
             self._check_score_collisions()
+        elif not self._final_fitness_flag:
+            self._add_final_fitness()
         return r
 
 class Sensor:

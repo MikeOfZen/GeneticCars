@@ -1,15 +1,16 @@
-import config
-import gui
-import track
-import load
-import experiment
-import evolution
-from population import Population
+import os
 
+import config
 import consolemenu as cm
 import consolemenu.items as cmi
+import evolution
+import experiment
+import genetics
+import gui
+import load
+import track
+from population import Population
 
-import os
 
 # todo menu options
 # set experiment settings, such as number of generations, mutation settings, drawing or not, save progress or not
@@ -51,6 +52,8 @@ class App:
 
         self.menu.append_item(cmi.FunctionItem("Run evolution (Drawn)", self.evolution_drawn, []))
         self.menu.append_item(cmi.FunctionItem("Run evolution (Simulate)", self.evolution_sim, []))
+
+        self.genetics=genetics.default_genetics
 
     def _set_track(self, track_json):
         self.track_json=track_json
@@ -115,7 +118,7 @@ class App:
     def evolution_sim(self):
         generations_to_run=input_with_conditions("Please input number of generations to evolve [1-500]",int,[lambda x:x>0,lambda x:x<500])
         t = track.Track(track=self.track_json)
-        ev= evolution.Evolution(self.population,t,generations_to_run)
+        ev= evolution.Evolution(self.population,t,generations_to_run,self.genetics)
         temp_population=ev.run()
 
         save = input_with_conditions("Accept evolution results (y/n)", str,[lambda x: x in ["y","n"]])
@@ -129,7 +132,7 @@ class App:
         window = gui.GameWindow(width=config.width, height=config.height,close_on_finish=False)
         t = gui.DrawingTrack(window=window, batch=window.fixed_batch, track=self.track_json)
 
-        ev= evolution.DrawnEvolution(self.population,t,generations_to_run,window)
+        ev= evolution.DrawnEvolution(self.population,t,generations_to_run,window,genetics=self.genetics)
         temp_population=ev.run()
 
         save = input_with_conditions("Accept evolution results (y/n)", str,[lambda x: x in ["y","n"]])
