@@ -66,7 +66,7 @@ class SymmetricalNeuralNetwork:
         self._mutable_weights()
 
 class NeuralNetwork():
-    def __init__(self,shape_v,weights,symmetry_mat=None):
+    def __init__(self,shape_v,weights,symmetry_mat=None,intensity_if_new=0.1):
         """
 
         :param shape_v: one dimensional array, first element is the number of inputs, last is the number of outputs,
@@ -84,27 +84,46 @@ class NeuralNetwork():
         """
         assert len(shape_v)>=2 ,"shape_v is incorrect size"
         assert all(x>=1 for x in shape_v), "cant have less then one sized layers"
-        for i,l in enumerate(shape_v[:-1]):
-            assert weights[i].shape==(shape_v[i], shape_v[i+1]+1), f"mismatch in weight and shape dimension" \
-                f" in matrix {i} of weights"
-
         self._shape_v=shape_v
-        self._weights=weights
+
+        if weights is not None:
+            for i,l in enumerate(shape_v[:-1]):
+                assert weights[i].shape==(shape_v[i+1], shape_v[i]+1), f"mismatch in weight and shape dimension" \
+                    f" in matrix {i} of weights"
+            self._weights=weights
+        else:
+            self._init_random_network(intensity_if_new)
+
         self._init_neurons()
 
+        self._symmetry_mat = symmetry_mat
         if symmetry_mat is not None:
             assert symmetry_mat.shape == weights[0].shape, "mismatch in symmetry and weights[0] dimensions"
-            self._symmetry_mat=symmetry_mat
             self._weights[0]=self._apply_symetry(self._symmetry_mat,self._weights[0])
             self._mutables=self._mutable_weights(self._symmetry_mat)
 
+        self._generate_id()
+        self._name=f"NN{str(self._id).zfill(3)}"
+
+        with np.printoptions(precision=3,suppress=True):
+            self._weights_str=str(self.weights)
+
+    def __repr__(self):
+        return self._name+" -\n"+self._weights_str
+
+    def _init_random_network(self,intensity):
+        self._weights=[]
+        for i, l in enumerate(self._shape_v[:-1]):
+            layer_weights_shape=(self._shape_v[i+1], self._shape_v[i]+1)
+            self._weights.append(intensity*np.random.random(size=layer_weights_shape)-(intensity/2))
+
     def _init_neurons(self):
         self._neuron_layers=[]
-        for layer_size in self._shape_v[:-1]:
+        for layer_size in self._shape_v:
             layer=np.zeros(shape=layer_size+1,dtype=np.float)
             layer[0]=1  # bias term
             self._neuron_layers.append(layer)
-        self._neuron_layers.append(np.zeros(shape=self._shape_v[-1], dtype=np.float))  # final output layer
+        #self._neuron_layers.append(np.zeros(shape=self._shape_v[-1], dtype=np.float))  # final output layer
 
     @staticmethod
     def _apply_symetry(symmetry_mat, weights_mat):
@@ -127,15 +146,34 @@ class NeuralNetwork():
         return mutables
 
     def compute(self, input):
-        assert input.shape == self._shape_v[0], "wrong input dimension"
+        assert input.shape == (self._shape_v[0],), "wrong input dimension"
         self._neuron_layers[0][1:]=input
         for i in range(len(self._neuron_layers) - 1):
-            self._neuron_layers[i + 1]=np.matmul(self._weights[i], self._neuron_layers[i])
+            self._neuron_layers[i + 1][1:]=np.matmul(self._weights[i], self._neuron_layers[i])
             np.tanh(self._neuron_layers[i + 1])
 
-        return self._neuron_layers[-1].copy()
+        return self._neuron_layers[-1][1:]
+
+    def _generate_id(self):
+        d=3 #number of digits in name
+        m=10**d
+        s=sum(abs(x).sum() for x in self._weights)
+        self._id= int(m-abs((s*1000) % (2*m) - m))
+
+    @property
+    def id(self):
+        return self._id
 
     @property
     def weights(self):
         return self._weights.copy()
+
+    @property
+    def symmetry_mat(self):
+        return self._symmetry_mat
+
+    @property
+    def shape_v(self):
+        return self._shape_v.copy()
+
 
