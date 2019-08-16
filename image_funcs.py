@@ -1,22 +1,26 @@
-from PIL import Image, ImageDraw, ImageFont
-import load
+import io
+
 import pyglet
+from PIL import Image, ImageDraw, ImageFont
 
-base = load.car_img
-
-# make a blank image for the text, initialized to transparent text color
-txt = Image.new('RGBA', (200,200), (0,0,0,0))
-base = Image.new('RGBA', (200,200), (0,0,0,255))
-# get a font
 fnt = ImageFont.load_default()
-# get a drawing context
-d = ImageDraw.Draw(txt)
+def write_on_image(resource_name,text,text_colors=(255, 255, 255, 255)):
+    p_res_fp = pyglet.resource.file(resource_name)
+    base = Image.open(p_res_fp, mode='r')
 
-# draw text, half opacity
-d.text((10,10), "Hello", font=fnt, fill=(255,255,255,128))
-# draw text, full opacity
-d.text((10,60), "World", font=fnt, fill=(255,255,255,255))
+    txt_im = Image.new('RGBA', base.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(txt_im)
+    d.text((5, 5), text, font=fnt, fill=text_colors)
 
-out = Image.alpha_composite(base, txt)
+    out = Image.alpha_composite(base, txt_im)
 
-out.show()
+    temp_buf = io.BytesIO()
+    out.save(temp_buf, "PNG")
+    pyg_img=pyglet.image.load("a.png", file=temp_buf)
+    center_image(pyg_img)
+    return pyg_img
+
+def center_image(image):
+    """Sets an image's anchor point to its center"""
+    image.anchor_x = image.width // 2
+    image.anchor_y = image.height // 2

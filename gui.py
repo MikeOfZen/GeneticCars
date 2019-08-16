@@ -1,12 +1,14 @@
+import math
 import numpy as np
 import pyglet
-import math
-
-import config
-import load
-import car
-from track import Track
 from pyglet.window import key
+
+import car
+import config
+import image_funcs
+import load
+from track import Track
+
 
 class GameWindow(pyglet.window.Window):
 
@@ -100,17 +102,21 @@ class DrawingCar(car.ScoringCar):
         self.batch=batch
 
 
-        img=load.car_img
+        # img=load.car_img
         self.graphics=[]
-        self.sprite=pyglet.sprite.Sprite(img=img,x=self.track.transform_x(self.x),y=self.track.transform_y(self.y),batch=self.batch)
-        self.label=pyglet.text.Label(self.name,
-                                  font_name='Arial',
-                                  font_size=10,
-                                  x=self.track.transform_x(self.x),
-                                  y=self.track.transform_y(self.y),
-                                  anchor_x='center',
-                                  anchor_y='center',batch=self.batch,color=(255,0,0,255))
-        self.graphics+=[self.label,self.sprite]
+
+        pyg_image=image_funcs.write_on_image(load.basic_car_name,self.name,config.basic_name_colors)
+        self.sprite=pyglet.sprite.Sprite(img=pyg_image,x=self.track.transform_x(self.x),y=self.track.transform_y(self.y),batch=self.batch)
+
+        # self.label=pyglet.text.Label(self.name,
+        #                           font_name='Arial',
+        #                           font_size=10,
+        #                           x=self.track.transform_x(self.x),
+        #                           y=self.track.transform_y(self.y),
+        #                           anchor_x='center',
+        #                           anchor_y='center',batch=self.batch,color=(255,0,0,255))
+
+        self.graphics+=[self.sprite]
 
 
 
@@ -123,7 +129,8 @@ class DrawingCar(car.ScoringCar):
                 graphic.rotation=-math.degrees(self.dir)
         else:
             #self.label.text="X"+self.name
-            self.sprite.image = load.dead_img
+            pyg_image = image_funcs.write_on_image(load.dead_car_name, self.name, config.basic_name_colors)
+            self.sprite.image = pyg_image
         return r
 
 
