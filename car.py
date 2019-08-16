@@ -79,6 +79,7 @@ class ScoringCar(Car):
         super(ScoringCar, self).__init__(*args, **kwargs)
         self.fitness=0
         self._gate_idx=0
+        self._steps_left=config.initial_steps_per_Gate
         self._final_fitness_flag=False
         self._set_gate()
 
@@ -97,15 +98,28 @@ class ScoringCar(Car):
                     self._gate_idx+=1
                     self._set_gate()
                     self.fitness =self._gate_idx
+                    self._steps_left=config.steps_per_gate
+                    self._check_finish()
+
+    def _check_finish(self):
+        if self._gate_idx==len(self.track.gates):
+            self.finished=True
+            self.dead=True
 
     def _add_final_fitness(self):
         self.fitness += 1/self.step_count
         self._final_fitness_flag=True
 
+    def _decrement_step_and_die(self):
+        self._steps_left -=1
+        if self._steps_left <=0:
+            self.dead=True
+
     def step(self):
         r=super(ScoringCar, self).step()
         if r:
             self._check_score_collisions()
+            self._decrement_step_and_die()
         elif not self._final_fitness_flag:
             self._add_final_fitness()
         return r

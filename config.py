@@ -16,9 +16,12 @@ border_detection_radius=300 #this is an optimization, where only borders close t
 default_population_size=50
 default_filename="population.json"
 default_populations_dir="populations"
+default_autosave_dir="autosave"
+
+save_every_generation=5
 
 #display
-width=1000
+width=1200
 height=800
 fps=60
 
@@ -26,16 +29,21 @@ border_thickness=3
 border_color=(255,255,255)
 gate_thickness=1
 gate_color=(255,0,0)
+basic_name_colors=(0,0,0,255)
+
 
 time_step=1/fps
 
 #experiment settings
-max_experiment_steps = 1e5  #
+#max_experiment_steps = 3e5  #
+initial_steps_per_Gate=1e4
+steps_per_gate= 5e3
 
 #mutation settings
-mutation_Rate = 2
+mutation_Rate = 1
 retain_percent = 0.2
 throttle_mutation_by_std=False
+mutate_all=True
 
 import brains
 default_brain=brains.NeuralBrain
@@ -43,7 +51,7 @@ default_brain_argumetns=[None]
 
 
 
-default_neural_shape=[5,5,2]
+default_neural_shape=[5,3,2]
 default_initial_network_intensity=0.1
 default_symmetry_mat=None
 

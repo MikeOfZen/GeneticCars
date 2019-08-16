@@ -1,8 +1,8 @@
-import car
-import config
-import gui
 import brains
+import car
+import gui
 import load
+
 
 class TestSubject:
     def __init__(self,controller,brain,car):
@@ -49,7 +49,7 @@ class Experiment:
         return results
 
     def experiment_over(self):
-        return self.steps >= config.max_experiment_steps or self._all_dead()
+        return self._all_dead()
 
     def _all_dead(self):
         return all(subject.car.dead for subject in self.subjects)

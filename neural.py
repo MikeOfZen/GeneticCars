@@ -66,7 +66,7 @@ class SymmetricalNeuralNetwork:
         self._mutable_weights()
 
 class NeuralNetwork():
-    def __init__(self,shape_v,weights,symmetry_mat=None,intensity_if_new=0.1):
+    def __init__(self,shape_v,weights,symmetry_mat=None,intensity_if_new=0.2):
         """
 
         :param shape_v: one dimensional array, first element is the number of inputs, last is the number of outputs,

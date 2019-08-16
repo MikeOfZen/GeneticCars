@@ -39,7 +39,7 @@ class Genetics:
 
 def random_joiner(gene_a,gene_b,empty_gene):
     for a,b in zip(gene_a,gene_b):
-        empty_gene.append(random.choice(a,b))
+        empty_gene.append(random.choice((a,b)))
 
 
 def zipper_joiner(gene_a,gene_b,empty_gene):
@@ -67,7 +67,8 @@ def addetive_mutator(gene,intensity,mutate_all):
 def multiplecative_mutator(gene,intensity,mutate_all):
     if mutate_all:
         r=(np.random.random(size=gene.shape)*(intensity-1/intensity))+(1/intensity)
-        random_sign=np.putmask(1,np.random.random(size=gene.shape)>0.5,-1)
+        random_sign=np.ones_like(gene)
+        np.putmask(random_sign,np.random.random(size=gene.shape)>0.5,-1*np.ones_like(gene))
         r=r*random_sign
     else:
         r=np.ones_like(gene)
@@ -78,4 +79,4 @@ def multiplecative_mutator(gene,intensity,mutate_all):
     return gene*r
 
 
-default_genetics=Genetics(joiner=zipper_joiner, mutator=multiplecative_mutator)
+default_genetics=Genetics(joiner=random_joiner, mutator=addetive_mutator)

@@ -36,6 +36,7 @@ class App:
         self.menu.append_item( cmi.FunctionItem("Load population from file", self.load, []))
         self.menu.append_item( cmi.FunctionItem("Save population to file", self.save, []))
         self.menu.append_item( cmi.FunctionItem("Display population", self.population.display, []))
+        self.menu.append_item(cmi.FunctionItem("change population size", self.change_pop_size, []))
         self.menu.append_item(cmi.FunctionItem("Randmoize population", self.population.create_random_pop, [config.default_brain,config.default_brain_argumetns]))
 
         track_selection_menu = cm.ConsoleMenu("Select a track")
@@ -54,6 +55,11 @@ class App:
         self.menu.append_item(cmi.FunctionItem("Run evolution (Simulate)", self.evolution_sim, []))
 
         self.genetics=genetics.default_genetics
+
+    def change_pop_size(self):
+        config.population_size= input_with_conditions("Please input population size [1-500]", int,
+                                                   [lambda x: x > 0, lambda x: x < 500])
+        print("population size will change after 1 round of evolution and selection")
 
     def _set_track(self, track_json):
         self.track_json=track_json
