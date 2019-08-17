@@ -4,6 +4,8 @@ This is an Experiment/Game in machine learning.
 The objective was to create a driving algorithm, to drive around a simulated 2D track.
 The Car has 2 controls (acceleration - gas, and turn rate - wheel) and 5 (or more) distance sensors to 'see' the track
 
+![Alt text](/doc/After100generations.PNG?raw=true "The population solving the maze after 100 generations")
+
 The control is done with a neural network (of varying topology) which gets evolved by a genetic algorithm over a series of generetions.
 With the fitness of each network being the distance driven on the track (measured by gates in the track).
 
