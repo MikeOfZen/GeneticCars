@@ -36,4 +36,4 @@ Libraries used: Numpy, Pyglet, PILlow, Consolemenu(modified copy provided in rep
 
 # Running
 0. Install dependencies 
-1. run main.py in console
+1. run `main.py` in console
