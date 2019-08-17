@@ -32,6 +32,7 @@ and a number of tracks of various diffculties have been created and are possible
 finally it is possible to 'race' as a user against the evolved population.
 
 # Dependencies
+Python: ver 3.7
 Libraries used: Numpy, Pyglet, PILlow, Consolemenu(modified copy provided in repo)
 
 # Running
