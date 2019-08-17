@@ -39,3 +39,11 @@ finally it is possible to 'race' as a user against the evolved population.
 # Running
 0. Install dependencies 
 1. run `main.py` in console
+
+Application typical workflow
+1. Select track
+2. Initialize new or load population from file
+3. Run single experiment to view population
+4. Run evolution (simulate or drawn) for a number of generatios
+5. Run single experiment again to view the change in population
+6. Change some config settings and see the effect
