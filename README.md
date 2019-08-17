@@ -34,6 +34,6 @@ finally it is possible to 'race' as a user against the evolved population.
 # Dependencies
 Libraries used: Numpy, Pyglet, PILlow, Consolemenu(modified copy provided in repo)
 
-# running
-1.Install dependencies 
-2.run main.py in console
+# Running
+0. Install dependencies 
+1. run main.py in console
