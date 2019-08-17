@@ -1,0 +1,4348 @@
+{
+    "py/object": "population.Population",
+    "py/seq": [
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 378,
+            "_name": "N378",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/reduce": [
+                                            {
+                                                "py/type": "numpy.dtype"
+                                            },
+                                            {
+                                                "py/tuple": [
+                                                    "f8",
+                                                    0,
+                                                    1
+                                                ]
+                                            },
+                                            {
+                                                "py/tuple": [
+                                                    3,
+                                                    "<",
+                                                    null,
+                                                    null,
+                                                    null,
+                                                    -1,
+                                                    -1,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/UuO0lt/C+P1YbDTgOErI/SqgbjJnz4T+4yG//bMS1Pw7VgQYuWtQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/kzuFse27yv5A4RMDjbRBAkp7cbuKmD8BnK4t3fvv7v4S4SnlsEwrA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsB3X7wYmv4xwLES8ROm6hPAu1zimSG0MEBosKE6I8jxv0TosaZv2/k/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVP/oOQuiVIh3AQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "pZpX0mRQP0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr9DJ3u5JiwXQDhBB+Oz7f2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -17.995,  -4.979,  16.704,  -1.111,   1.616],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -7.284,  -0.009,  -3.279,  -7.685]]), array([[31.314,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  5.793, -1.871]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 919,
+            "_name": "N919",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9NSkTbGtm+P7cH4gDeA7I/6EFc71PA4T8HVM5y/rK1P2KesDWiXNQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+oYiFQMjLyv/qW/V/PbhBAkUET2YgyGcBGOaaremf5vxi6+7ymRQXA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIEDPBz6NHd4hwIAoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb9iJFnYNoTyP7FyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "0jNG2DOhP0D24zldYjcOQIBo05b/e+o/UGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr+Nw+eqQpUfQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,  -8.934,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,   1.157,  -7.685]]), array([[31.63 ,  3.777,  0.828,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  7.896, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 712,
+            "_name": "N712",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/eQnE41Zu9P5zEHTM7VLE/N7LMCvZR4T8nPPe/qOe0Pz5dFGF+lNQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+GRtYpRNfwv9psoBSabhBAp0rx8vUKEMDaXXC4kA/7v6BwlRQOUgjA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsB3X7wYmv4xwLES8ROm6hPAu1zimSG0MECz0rghKUvqP0TosaZv2/k/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "1AkxIlwDN0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr8UHOWrS9kZQDhBB+Oz7f2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -17.995,  -4.979,  16.704,   0.822,   1.616],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[23.013,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  6.462, -1.871]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 283,
+            "_name": "N283",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8rkUtf9EG/PztQVGzvcrE//wth0ahG4j+OGHk1fWK0P1s2njn7FtQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+ol2V0Obnxv8iFno36jxBAXJKcgV3JGMBkwF20po76v2wfNR8K0AfA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIEDPBz6NHd4hwIAoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "0jNG2DOhP0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr+Nw+eqQpUfQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,  -8.934,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[31.63 ,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  7.896, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 782,
+            "_name": "N782",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/JYKreppq4P6YrmuF4FcE/WN+oyUREsT/WBie291fIP3mOm2Z1PLg/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8NX895WjMOwBamOe6wxxRAffmyh6oEKMCxVt7UupbZPzQGwBaz3gPA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIECz0rghKUvqP4AoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+ETBjFNv0YwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "1AkxIlwDN0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr/y5hiN6p8YQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,   0.822,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -6.247,  -7.685]]), array([[23.013,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  6.156, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 109,
+            "_name": "N109",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/wHzqhygXiPxSUp3oUt7U/AAAAAAAA8D9LoB1rYy+xPyz+Gd/aQdQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/gOGyN5+vXP+AO9lAXJwtACKH7BLmoJsBCXE3O8eYjwHdDLe8hJgjA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwP4DNHiGMw8m/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIECz0rghKUvqP4AoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNArxMJg7/pJMAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "1AkxIlwDN0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/TQG72RS1FMAUHOWrS9kZQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,   0.822,  12.74 ],\n       [ -0.041,   0.009,   4.88 , -10.457,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[23.013,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -5.177,  6.462, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 562,
+            "_name": "N562",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+SM+9V/I22P3RosatHdcg/uLg4ByHHsT/PTC+IDhXkP23gXx4xZrw/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/EsAEjYK0gwDV/L0I69hpA98EXYzYGMsAmO7fA1d/jP86peU0eug3A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb+5i9uaElAIQKTFprFRsRfA0iIsxLNwJsB3X7wYmv4xwLES8ROm6hPAu1zimSG0MEDPBz6NHd4hwETosaZv2/k/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "0jNG2DOhP0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDlpARaGhQcQBN9FEIxM9M/gK9Od0v/dr+Nw+eqQpUfQDhBB+Oz7f2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   3.039,  -5.923],\n       [-11.22 , -17.995,  -4.979,  16.704,  -8.934,   1.616],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[31.63 ,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205,  7.02 ,  0.3  , -0.006,  7.896, -1.871]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 947,
+            "_name": "N947",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9ZqIiSI6XlP1VkNhpGlc0/tjeJj+s21T/IQ/OyLhKyP9Eg8+W5hdc/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8QzhnStHfRP1b6Nvlg3vk/bszksOjzM8DGCvtvc8OhP9338m8QEBDA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6xLMYxazx7A0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIEDPBz6NHd4hwIAoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "0jNG2DOhP0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNA6PyvttQtKMDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr+Nw+eqQpUfQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -7.702],\n       [-11.22 , -21.201,  -4.979,   8.166,  -8.934,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[ 31.63 ,   3.777,   7.908,   0.037,  -3.597,   9.663],\n       [-12.09 ,  -0.036,   0.3  ,  -0.006,   7.896,  -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 849,
+            "_name": "N849",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+rve1MRRm9P1InM20lYrE/SSbISlU74T9xQohcI0i1P1RqJDRtzNQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+Alfkbiim7P2ANEgr7WxBAuur/GLEPEMDL2minzOL6vyqM9El/kwjA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwBmz39hWbyRA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsB3X7wYmv4xwLES8ROm6hPAu1zimSG0MECz0rghKUvqP0TosaZv2/k/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "1AkxIlwDN0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr8UHOWrS9kZQDhBB+Oz7f2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,  10.217],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -17.995,  -4.979,  16.704,   0.822,   1.616],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[23.013,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  6.462, -1.871]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 924,
+            "_name": "N924",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8JyUXNFJu8Py+loBRVbrE/gjLualz24D9VzoR6PKi1P4ge6NfqBdU/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9orEusUKPwv9oF6uM7JBBA3UkCVjzDE8CRR3RkPGL6v8V5I0gS1gjA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v1oTrIni4BTA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsB3X7wYmv4xwLES8ROm6hPAu1zimSG0MEDPBz6NHd4hwETosaZv2/k/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "0jNG2DOhP0D24zldYjcOQKLki4ajBhRAUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr+Nw+eqQpUfQDhBB+Oz7f2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -5.22 ,  -0.042,   0.035,  -5.923],\n       [-11.22 , -17.995,  -4.979,  16.704,  -8.934,   1.616],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[31.63 ,  3.777,  5.006,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  7.896, -1.871]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 155,
+            "_name": "N155",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/9azcfXnu9Pxl6vhD5XbE/8XQiQzrJ4T/xXkY5Kwy1P3jLUBUMqNQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+0B4WO5z7xv/uAeEZuVg5AiYQmFlpVGMBDs6Eci6L5v8qVxIscagjA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkA0xND5CXUQwIQDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIEDPBz6NHd4hwIAoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "0jNG2DOhP0D24zldYjcOQGstIaUSliVAUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr+Nw+eqQpUfQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -4.114,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,  -8.934,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[31.63 ,  3.777, 10.793,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  7.896, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 123,
+            "_name": "N123",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9ItGebaDnEP6ZFqWfS4LE/KnFfivbe6j+9eNcRn2OyP1xve4d9RNE/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/I3iqT57r5vxpqOQW/UhFAomk+7K4B0b9PhZf2Yx4GwBo833kA9wTA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsB3X7wYmv4xwLES8ROm6hPAu1zimSG0MECz0rghKUvqPxB+RMyyb8w/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "1AkxIlwDN0D24zldYjcOQABUNPf2oR9AZ+hiFPIQGcCW1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr8UHOWrS9kZQDhBB+Oz7f2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -17.995,  -4.979,  16.704,   0.822,   0.222],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[23.013,  3.777,  7.908, -6.267, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  6.462, -1.871]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 581,
+            "_name": "N581",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/QENlIeCKxPwruhTo7+bQ/dJmFlnKwvD8YvNLwY8bTPwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9IwjduN6T7PwBnBv88YL4/3Pqoc3I/J8CO9jJCVTu2v55lwaUqHCLA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwvwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsB3X7wYmv4xwFApVFrKhOw/u1zimSG0MEDPBz6NHd4hwETosaZv2/k/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "0jNG2DOhP0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr/kI2UGeD7/vzhBB+Oz7f2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -17.995,   0.891,  16.704,  -8.934,   1.616],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[31.63 ,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006, -1.953, -1.871]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 210,
+            "_name": "N210",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9wlMBgxVezP5UjqHBe4rE/49f0zAG/uT8sa1xCbEPCP/H5me+L2Ls/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9TFvEP85MFwOjg9jPovhVAxOwBgCk+JsCEq9XiSgKZv+ELoGFdUf2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH87+mBU/enu4GQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIEBosKE6I8jxv4AoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVP/oOQuiVIh3AQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "pZpX0mRQP0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj/2qg4qegQEQBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr9DJ3u5JiwXQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   2.867, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,  -1.111,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -7.284,  -0.009,  -3.279,  -7.685]]), array([[31.314,  3.777,  7.908,  0.037,  2.502,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  5.793, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 194,
+            "_name": "N194",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D843Wb9oxaxP0nWV7r0x7k/HwBydBm+tj8Je4joVyjTPwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+s3bGSE6byP4DVqmiOGaA/IMn+JDJl4j9Try5vhuPgP/jZvMlsMyLA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwvwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "dzwpdhZr+r9vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIECz0rghKUvqP4AoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "1AkxIlwDN0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/Al49Q14ZFcAUHOWrS9kZQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.651,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,   0.822,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[23.013,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -5.275,  6.462, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 643,
+            "_name": "N643",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8a6p4/zBq+P+WiotIq/7E/PDU/LlAs4T8uAvSSOAu2P8Su6hDSndQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/Gc44Qzrbxv3JjwcQeXBBAqLJQF+GFEMDjraCgXJf6vybwn7131AXA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsB3X7wYmv4xwLES8ROm6hPAu1zimSG0MECz0rghKUvqP0TosaZv2/k/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwA6gNZNRgRrA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "Ugv0SB0kNED24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr8UHOWrS9kZQDhBB+Oz7f2/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -17.995,  -4.979,  16.704,   0.822,   1.616],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -6.626]]), array([[20.141,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  6.462, -1.871]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 340,
+            "_name": "N340",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9XAmWUEgvfP0PDIhkfu9E/eQM/mPB04j+mL589tMaxP7VMjqXW1cA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/D1Ylky7AKwBGnv6Havg1AKvKs8TMeMcBRH06NXWrnvz4BoglLJwnA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwvyCcD7DeidQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIEDPBz6NHd4hwIAoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/OqcdT/BE8b8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb9iJFnYNoTyP7FyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "0jNG2DOhP0D24zldYjcOQIBo05b/e+o/UGRBaXy2oj+WgORNf3gUwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr+Nw+eqQpUfQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,  -8.934,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -1.079,   0.021,  -4.114,  -0.009,   1.157,  -7.685]]), array([[31.63 ,  3.777,  0.828,  0.037, -5.118,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  7.896, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 242,
+            "_name": "N242",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/BQSoHmVbjP2DW5ubQztw/yE37CDLsxj9V6oUgy/DNP0Pp7itqgcQ/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+/yMez0BwXwEOEm99vsgRAwfQpFCTcOMAq23A+wBDgvy12xL+a3w7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwvwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIEDPBz6NHd4hwIAoiDD+eilArfsU/+7opL9xy5W6D1gLwOKCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/R1Ddp27ulL8EMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "gmUnqggXQkD24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr+Nw+eqQpUfQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,  -8.934,  12.74 ],\n       [ -0.041,  -3.418,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -0.02 ,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[36.18 ,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  , -0.006,  7.896, -2.535]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 123,
+            "_name": "N123",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D+D7FoAGzuxP24bfWqVe7Q/6FdBuJUSvj+YnNdGo/XTPwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8UerR7b5H7PxhepOCr+Pc/ZvCyGS8yI8DU48iNr629vwN3gwjXniLA"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwvwAAAAAAAPA/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/pGKuDBroRQKTFprFRsRfA0iIsxLNwJsB3X7wYmv4xwLES8ROm6hPAu1zimSG0MEBosKE6I8jxv0TosaZv2/k/rfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYv8rB+2uW1p+/R1Ddp27ulL8EMEgm77eVP/oOQuiVIh3AQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "pZpX0mRQP0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gK9Od0v/dr9DJ3u5JiwXQMPAEk72bybA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   4.432,  -5.923],\n       [-11.22 , -17.995,  -4.979,  16.704,  -1.111,   1.616],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,  -0.031],\n       [ -0.02 ,   0.021,  -7.284,  -0.009,  -3.279,  -7.685]]), array([[ 31.314,   3.777,   7.908,   0.037,  -3.597,   9.663],\n       [ -3.205,  -0.036,   0.3  ,  -0.006,   5.793, -11.219]])]"
+        },
+        {
+            "py/object": "brains.NeuralBrain",
+            "_id": 293,
+            "_name": "N293",
+            "net": {
+                "py/object": "neural.NeuralNetwork",
+                "_neuron_layers": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D/8vo0LCQrYP8kbuI3Y+OE/DqArKfXdwT8HaeRRg967P9o+o58KiLg/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D9fMzc99FQfwD83TgIrLAZA3mDq2p6HM8D926y5ZNoBQF2ucGA0rx7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            3
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "AAAAAAAA8D8AAAAAAADwvwAAAAAAAPC/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "_shape_v": [
+                    5,
+                    5,
+                    2
+                ],
+                "_symmetry_mat": null,
+                "_weights": [
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            5,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "YMoARlvH879vvZPKOscUQGHVyUxrhyzAK3ee/yAN+r/wCFgWRGYhwJFOho8DnxpA58cgDcUQGkDM/XxfugP3v4QDP10lxBLA7brKKC1gpb/YCXrMF9ehP6TFprFRsRfA0iIsxLNwJsATZv4mcjM1wLES8ROm6hPAh+AFf+FUIECz0rghKUvqP4AoiDD+eilArfsU/+7opL90+EMhNbGCP+KCaLUEhRNA3b7fLJwdDcAUMpg0WreYvy048JYZDto/Uz78QngYEcAEMEgm77eVPz7bPWHGdBDAQPIFJvu6gb+THAbBYDwKwLFyyYgXvR7A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "py/reduce": [
+                            {
+                                "py/function": "numpy.core.multiarray._reconstruct"
+                            },
+                            {
+                                "py/tuple": [
+                                    {
+                                        "py/type": "numpy.ndarray"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            0
+                                        ]
+                                    },
+                                    {
+                                        "py/b64": "Yg=="
+                                    }
+                                ]
+                            },
+                            {
+                                "py/tuple": [
+                                    1,
+                                    {
+                                        "py/tuple": [
+                                            2,
+                                            6
+                                        ]
+                                    },
+                                    {
+                                        "py/id": 5
+                                    },
+                                    false,
+                                    {
+                                        "py/b64": "1AkxIlwDN0D24zldYjcOQABUNPf2oR9AUGRBaXy2oj+W1GilGMcMwBIJgg+sUyNAOhBI9z+jCcDShbmIbmuivxN9FEIxM9M/gFu6sSmzH0AUHOWrS9kZQIiekOpoSATA"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weights_str": "[array([[ -1.236,   5.195, -14.264,  -1.628,  -8.7  ,   6.655],\n       [  6.516,  -1.438,  -4.692,  -0.042,   0.035,  -5.923],\n       [-11.22 , -21.201,  -4.979,   8.166,   0.822,  12.74 ],\n       [ -0.041,   0.009,   4.88 ,  -3.639,  -0.024,   0.407],\n       [ -4.274,   0.021,  -4.114,  -0.009,  -3.279,  -7.685]]), array([[23.013,  3.777,  7.908,  0.037, -3.597,  9.663],\n       [-3.205, -0.036,  0.3  ,  7.925,  6.462, -2.535]])]"
+        }
+    ]
+}
