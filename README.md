@@ -4,12 +4,13 @@ This is an Experiment/Game in machine learning.
 The objective was to create a driving algorithm, to drive around a simulated 2D track.
 The Car has 2 controls (acceleration - gas, and turn rate - wheel) and 5 (or more) distance sensors to 'see' the track
 
-![Alt text](/doc/After100generations.PNG?raw=true "The population solving the maze after 100 generations")
-
 The control is done with a neural network (of varying topology) which gets evolved by a genetic algorithm over a series of generetions.
 With the fitness of each network being the distance driven on the track (measured by gates in the track).
 
-# evolution
+![Alt text](/doc/After100generations.PNG?raw=true "The population solving the track after 100 generations")
+-The population solving the track after 100 generations
+
+# Evolution
 For each round of evolution, the whole population is tested, and the best 20% is selected.
 For the next population, the best 20% is kept as is (elitism)
 the rest 80% is created by randomly crossing 2 members of the selected and mutating the result.
@@ -24,5 +25,5 @@ and a number of tracks of various diffculties have been created and are possible
 
 finally it is possible to 'race' as a user against the evolved population.
 
-# required
+# Required
 Libraries used: Numpy, Pyglet, Consolemenu, PILlow
