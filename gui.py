@@ -42,6 +42,10 @@ class GameWindow(pyglet.window.Window):
                 self.close()
             self.halt()
 
+    def on_close(self):
+        self.close()
+        self.halt()
+
     def halt(self):
         pyglet.clock.unschedule(self.step)
         #maybe unneeded

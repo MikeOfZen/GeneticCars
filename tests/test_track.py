@@ -1,6 +1,11 @@
 from unittest import TestCase
-import load,track
+
 import numpy as np
+
+import load
+import track
+
+
 class TestTrack(TestCase):
 
     def setUp(self) -> None:

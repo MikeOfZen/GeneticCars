@@ -40,7 +40,9 @@ initial_steps_per_Gate=1e4
 steps_per_gate= 5e3
 
 #mutation settings
-mutation_Rate = 1
+start_mutation_Rate = 1
+end_mutation_rate=0.1
+
 retain_percent = 0.2
 throttle_mutation_by_std=False
 mutate_all=True
@@ -52,16 +54,16 @@ default_brain_argumetns=[None]
 
 
 default_neural_shape=[5,3,2]
-default_initial_network_intensity=0.1
-default_symmetry_mat=None
-
+default_initial_network_intensity=0.2
+import numpy as np
+default_symmetry_mat=np.array([[0,0,1,1,2,2], [0,0,3,-3,4,-4], [0,0,0,0,0,0]])  #suitable for shape of 5,3,2
 
 #converting here for apropriate types fro convinence
 import math
 sensor_angles=[0,45,-45,90,-90]
 sensor_angles=[math.radians(x) for x in sensor_angles]
 
-import numpy as np
+
 control_scalar_max=np.array([max_acceleration,max_turnrate],dtype=np.float)
 control_scalar_min=-control_scalar_max
 

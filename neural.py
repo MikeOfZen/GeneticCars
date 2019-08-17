@@ -98,7 +98,7 @@ class NeuralNetwork():
 
         self._symmetry_mat = symmetry_mat
         if symmetry_mat is not None:
-            assert symmetry_mat.shape == weights[0].shape, "mismatch in symmetry and weights[0] dimensions"
+            assert symmetry_mat.shape == self._weights[0].shape, "mismatch in symmetry and weights[0] dimensions"
             self._weights[0]=self._apply_symetry(self._symmetry_mat,self._weights[0])
             self._mutables=self._mutable_weights(self._symmetry_mat)
 
