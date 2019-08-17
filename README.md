@@ -20,7 +20,8 @@ if any car reaches the final gate, the experiment is over.
 For each round of evolution, the whole population is tested, and the best 20% is selected.
 For the next population, the best 20% is kept as is (elitism)
 the rest 80% is created by randomly crossing 2 members of the selected and mutating the result.
-*the percentages, mutation levels and crossing algorithms are tunable in the config.
+
+_the percentages, mutation levels and crossing algorithms are tunable in the config._
 
 # Interface
 the simulation can run in 2 modes, with or without graphical output. 
@@ -32,8 +33,8 @@ and a number of tracks of various diffculties have been created and are possible
 finally it is possible to 'race' as a user against the evolved population.
 
 # Dependencies
-Python: ver 3.7
-Libraries used: Numpy, Pyglet, PILlow, Consolemenu(modified copy provided in repo)
+* Python: ver 3.7
+* Libraries used: Numpy, Pyglet, PILlow, Consolemenu(modified copy provided in repo)
 
 # Running
 0. Install dependencies 
