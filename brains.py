@@ -92,7 +92,7 @@ class NeuralBrain(Brain):
  #for jsonpickle human readable form
 
         self._id=self.net.id
-        self._name=f"BN{str(self._id).zfill(3)}"
+        self._name="BN"+str(self._id).zfill(3)
 
     def compute(self, input):
         scaled_input=self.scale_input(input)
@@ -102,6 +102,6 @@ class NeuralBrain(Brain):
         return (scaled_controls[0],scaled_controls[1])
 
     def __repr__(self):
-        return f"{self._name}\n {repr(self.net)}"
+        return self._name+"\n"+ repr(self.net)
 
 

@@ -48,14 +48,14 @@ class Evolution:
 
     def _save(self):
         if not self.generation % c.save_every_generation:
-            filename = f"gen-{self.generation}-{datetime.datetime.now().strftime('%d%H%M%S')}-{self._last_top_score}"
+            filename = "gen-"+str(self.generation)+"-"+datetime.datetime.now().strftime('%d%H%M%S')+self._last_top_score
             path = os.path.join(c.default_populations_dir,c.default_autosave_dir, filename)
             try:
                 with open(path, "w+") as f:
                     f.write(self.population.save())
                     print("Saved!")
             except Exception as e:
-                print(f"Could not save file {e}")
+                print("Could not save file "+e)
                 self.population.save()
 
     def _test(self):
@@ -64,13 +64,13 @@ class Evolution:
         self._last_results=self._experiment.experiment_results()
 
     def _display_selected(self):
-        print(f"Selected nets are: {[str(x) for x in self._last_selected]}")
+        print("Selected nets are: "+str([str(x) for x in self._last_selected]))
         if c.verbose:
             print("Weights:\n"+"\n".join([repr(x) for x in self._last_selected]))
 
     def _display_test_results(self):
-        print(f"Generation - {self.generation} results \n")
-        print("\n".join([f"{x[0]} - {x[1]}" for x in self._last_results]))
+        print("Generation - "+str(self.generation)+" results \n")
+        print("\n".join([x[0] +"-"+ x[1] for x in self._last_results]))
 
     def _run_test(self):
         self._experiment.run()
@@ -107,13 +107,13 @@ class Evolution:
             brain_a=np.random.choice(self._last_selected)
             brain_b = np.random.choice(self._last_selected)
             if c.verbose:
-                print(f"\nCrossbreeding {brain_a} and {brain_b}")
+                print("\nCrossbreeding "+brain_a and brain_b)
             offspring_net=self.genetics.cross_breed(brain_a.net,brain_b.net)
             if c.verbose:
-                print(f"\nOffspring net - {repr(offspring_net)}")
+                print("\nOffspring net - "+repr(offspring_net))
             mutated_offspring_net=self.genetics.mutate(offspring_net,self.mutation_rate,mutate_all=c.mutate_all)
             if c.verbose:
-                print(f"\nMutated Offspring net - {repr(mutated_offspring_net)}")
+                print("\nMutated Offspring net - "+repr(mutated_offspring_net))
             new_brain=brain_a.__class__(mutated_offspring_net)
             self.population.append(new_brain)
 

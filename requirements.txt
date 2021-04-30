@@ -1,0 +1,6 @@
+pyglet~=1.5.16
+Cython~=0.29.23
+jsonpickle~=2.0.0
+numpy~=1.16.6
+six~=1.15.0
+Pillow~=6.2.2

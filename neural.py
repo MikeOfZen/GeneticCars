@@ -10,7 +10,7 @@ class OneLayerNeuralNetwork:
         self.weights=weights
 
     def compute(self,input):
-        assert input.shape == tuple((self.weights.shape[1]-1,)) , f"wrong input dimension, required dimensions are {self.weights.shape[1]-1}"
+        assert input.shape == tuple((self.weights.shape[1]-1,)) , "wrong input dimension, required dimensions are "+self.weights.shape[1]-1
 
         extended_input=np.insert(input,0,1,0) #insert constant 1 in zero place
 
@@ -29,7 +29,7 @@ class SymmetricalNeuralNetwork:
         self.weights = weights
 
     def compute(self, input):
-        assert input.shape == tuple((self.weights.shape[1] - 1,)), f"wrong input dimension, required dimensions are {self.weights.shape[1] - 1}"
+        assert input.shape == tuple((self.weights.shape[1] - 1,)), "wrong input dimension, required dimensions are "+self.weights.shape[1] - 1
 
         extended_input = np.insert(input, 0, 1, 0)  # insert constant 1 in zero place
 
@@ -88,8 +88,8 @@ class NeuralNetwork():
 
         if weights is not None:
             for i,l in enumerate(shape_v[:-1]):
-                assert weights[i].shape==(shape_v[i+1], shape_v[i]+1), f"mismatch in weight and shape dimension" \
-                    f" in matrix {i} of weights"
+                assert weights[i].shape==(shape_v[i+1], shape_v[i]+1), "mismatch in weight and shape dimension" \
+                    " in matrix "+str(i)+" of weights"
             self._weights=weights
         else:
             self._init_random_network(intensity_if_new)
@@ -103,7 +103,7 @@ class NeuralNetwork():
             self._mutables=self._mutable_weights(self._symmetry_mat)
 
         self._generate_id()
-        self._name=f"NN{str(self._id).zfill(3)}"
+        self._name="NN"+str(self._id).zfill(3)
 
         with np.printoptions(precision=3,suppress=True):
             self._weights_str=str(self.weights)

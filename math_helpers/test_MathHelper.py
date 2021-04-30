@@ -2,7 +2,7 @@ from unittest import TestCase
 
 import math
 import numpy as np
-from math import MathHelper as m
+import MathHelper as m
 import cProfile
 import timeit
 

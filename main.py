@@ -68,19 +68,19 @@ class App:
         self.menu.show()
 
     def load(self):
-        filename=input(f"Please input desired filename to load (or leave empty for default -{config.default_filename}):")
+        filename=input("Please input desired filename to load (or leave empty for default -"+config.default_filename)
         if filename =='':
             filename=config.default_filename
         path = os.path.join(config.default_populations_dir, filename)
         try:
             with open(path,"r") as f:
                 self.population.load(f.read())
-                print(f"Loaded - {path}")
+                print("Loaded - "+path)
         except Exception as e:
-            print(f"Could not load file - {e}")
+            print("Could not load file - "+e)
 
     def save(self):
-        filename=input(f"\nPlease input desired filename to save (or leave empty for default -{config.default_filename}):")
+        filename=input("\nPlease input desired filename to save (or leave empty for default -"+config.default_filename)
         if filename =='':
             filename=config.default_filename
         path=os.path.join(config.default_populations_dir,filename)
@@ -89,7 +89,7 @@ class App:
                 f.write(self.population.save())
                 print("Saved!")
         except Exception as e:
-            print(f"Could not save file {e}")
+            print("Could not save file "+e)
 
 
     def user_experiment(self):
@@ -101,7 +101,7 @@ class App:
         window.start()
         del window
         results = e.experiment_results()
-        print("Fitness results"+"\n".join([f"{x[0]} - {x[1]}" for x in results]))
+        print("Fitness results"+"\n".join([x[0] +"-"+ x[1] for x in results]))
 
     def single_experiment_drawn(self):
         window = gui.GameWindow(width=config.width, height=config.height)
@@ -112,14 +112,14 @@ class App:
         window.start()
         del window
         results = e.experiment_results()
-        print("Fitness results"+"\n".join([f"{x[0]} - {x[1]}" for x in results]))
+        print("Fitness results"+"\n".join([{x[0]} +"-"+ {x[1]} for x in results]))
 
     def single_experiment_sim(self):
         t = track.Track( track=self.track_json)
         e=experiment.Experiment(track=t,brain_pop=self.population)
         e.run()
         results=e.experiment_results()
-        print("Fitness results"+"\n".join([f"{x[0]} - {x[1]}" for x in results]))
+        print("Fitness results"+"\n".join([x[0] + x[1] for x in results]))
 
     def evolution_sim(self):
         generations_to_run=input_with_conditions("Please input number of generations to evolve [1-500]",int,[lambda x:x>0,lambda x:x<500])
